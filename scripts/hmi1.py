@@ -120,7 +120,30 @@ def fromJson(path, root):
     data = json.load(open(path,'r'))
     return createFromTree(data, root)        
 
-importLibrary('cshmi')
+import xml.etree.ElementTree as ET
+
+def crawler(path):
+	tree = {}
+	if path in ['/TechUnits/cshmi']:
+		return tree		
+	
+	req = server+"/getEP?format=ksx&requestType=OT_DOMAIN&path="+path
+#	print(req)
+	res = http.request('GET',req)
+	response = res.data
+	parsed = ET.fromstring(response)
+	for obj in parsed[0]:
+		identifier = obj.find('{http://acplt.org/schemas/ksx/2.0}identifier').text
+		classIdentifier = obj.find('{http://acplt.org/schemas/ksx/2.0}classIdentifier').text
+		tree[identifier] = {}
+		tree[identifier]['factory'] = classIdentifier
+		tree[identifier]['Children'] = crawler(path+'/'+identifier)
+		
+	
+	return tree
+
+crawler('/TechUnits')
+#importLibrary('cshmi')
 
 path_factory = {
             '/TechUnits/rec2/cir3':'/TechUnits/cshmi/Circle',
@@ -129,11 +152,12 @@ path_factory = {
             '/TechUnits/rec2/rec2':'/TechUnits/cshmi/Rectangle'
         } 
 
+
 #createObject(path_factory)
 
 
 #fromYaml('/home/zzz/hiwi/data/create_set.yaml', '/TechUnits/')
-fromJson('/home/zzz/hiwi/data/create_set.json', '/TechUnits/')
+#fromJson('../data/create_set.json', '/TechUnits/')
 
 
 

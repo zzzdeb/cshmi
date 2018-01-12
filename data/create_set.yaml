@@ -1,6 +1,7 @@
 Rectangle:
   factory: Group
-  x: 15
+  x: 20
+  y: 39
   Children:
     rec:
       factory: Rectangle
