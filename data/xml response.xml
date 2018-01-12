@@ -1,0 +1,54 @@
+<response 
+    xmlns="http://acplt.org/schemas/ksx/2.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://acplt.org/schemas/ksx/2.0 ksx.xsd">
+    <getep>
+        <DomainEngProps>
+            <identifier>s1</identifier>
+            <comment>a circle</comment>
+            <access>read write deleteable renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T01:52:53.985903</creationtime>
+            <classIdentifier>/acplt/cshmi/Circle</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>s2</identifier>
+            <comment>a circle</comment>
+            <access>read write deleteable renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T01:52:53.985903</creationtime>
+            <classIdentifier>/acplt/cshmi/Circle</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>s5</identifier>
+            <comment>a circle</comment>
+            <access>read write deleteable renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T01:53:27.986082</creationtime>
+            <classIdentifier>/acplt/cshmi/Circle</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>s4</identifier>
+            <comment>a circle</comment>
+            <access>read write deleteable renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T01:53:27.986082</creationtime>
+            <classIdentifier>/acplt/cshmi/Circle</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>s7</identifier>
+            <comment>a circle</comment>
+            <access>read write deleteable renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T01:53:49.241628</creationtime>
+            <classIdentifier>/acplt/cshmi/Circle</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>s6</identifier>
+            <comment>a rectangle</comment>
+            <access>read write deleteable renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T01:53:49.241628</creationtime>
+            <classIdentifier>/acplt/cshmi/Rectangle</classIdentifier>
+        </DomainEngProps>
+    </getep>
+</response>

@@ -1,0 +1,13 @@
+{
+    "rect":{
+        "faculty":"Group",
+        "x":"15",
+        "children":
+        {
+            "Rect":{
+                "type":"Rectangle",
+                "x":"100"
+            }
+        }
+    }
+}

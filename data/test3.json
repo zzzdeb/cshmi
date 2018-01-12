@@ -1,0 +1,21 @@
+{
+    "Rectangle": {
+        "factory": "Group",
+        "x": 15,
+        "Children": {
+            "rec": {
+                "factory": "Rectangle",
+                "x": 100,
+                "y": 250
+            },
+            "cir": {
+                "factory": "Circle",
+                "x": 100,
+                "y": 200
+            },
+            "cir2": {
+                "factory": "Circle"
+            }
+        }
+    }
+}

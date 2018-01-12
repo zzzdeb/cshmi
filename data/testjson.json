@@ -1,0 +1,10 @@
+
+Projects:
+  C/C++ Libraries:
+  - libyaml       # "C" Fast YAML 1.1
+  - Syck          # (dated) "C" YAML 1.0
+  - yaml-cpp      # C++ YAML 1.2 implementation
+  Ruby:
+  - psych         # libyaml wrapper (in Ruby core for 1.9.2)
+  - RbYaml        # YAML 1.1 (PyYAML Port)
+  - yaml4r  

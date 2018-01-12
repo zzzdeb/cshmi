@@ -1,0 +1,172 @@
+{cshmi KS_OT_DOMAIN {} {KS_AC_READ KS_AC_WRITE KS_AC_RENAMEABLE
+    }  {
+        2018-01-10 23: 54: 20.933
+    } /acplt/ov/domain
+} {Rect KS_OT_DOMAIN {a grouping of elements
+    } {KS_AC_READ KS_AC_WRITE KS_AC_RENAMEABLE
+    }  {
+        2018-01-10 23: 55: 04.321
+    } /acplt/cshmi/Group
+} {Rec KS_OT_DOMAIN {a grouping of elements
+    } {KS_AC_READ KS_AC_WRITE KS_AC_DELETEABLE KS_AC_RENAMEABLE
+    }  {
+        2018-01-10 23: 56: 08.251
+    } /acplt/cshmi/Group
+} {Rec2 KS_OT_DOMAIN {a grouping of elements
+    } {KS_AC_READ KS_AC_WRITE KS_AC_DELETEABLE KS_AC_RENAMEABLE
+    }  {
+        2018-01-10 23: 56: 45.034
+    } /acplt/cshmi/Group
+} {Rec5 KS_OT_DOMAIN {a grouping of elements
+    } {KS_AC_READ KS_AC_WRITE KS_AC_DELETEABLE KS_AC_RENAMEABLE
+    }  {
+        2018-01-10 23: 58: 08.496
+    } /acplt/cshmi/Group
+} {Rec6 KS_OT_DOMAIN {a grouping of elements
+    } {KS_AC_READ KS_AC_WRITE KS_AC_DELETEABLE KS_AC_RENAMEABLE
+    }  {
+        2018-01-10 23: 59: 49.573
+    } /acplt/cshmi/Group
+} {Rec7 KS_OT_DOMAIN {a grouping of elements
+    } {KS_AC_READ KS_AC_WRITE KS_AC_DELETEABLE KS_AC_RENAMEABLE
+    }  {
+        2018-01-11 00: 00: 40.034
+    } /acplt/cshmi/Group
+} {Rec8 KS_OT_DOMAIN {a grouping of elements
+    } {KS_AC_READ KS_AC_WRITE KS_AC_DELETEABLE KS_AC_RENAMEABLE
+    }  {
+        2018-01-11 00: 00: 43.226
+    } /acplt/cshmi/Group
+} {Rec9 KS_OT_DOMAIN {a grouping of elements
+    } {KS_AC_READ KS_AC_WRITE KS_AC_DELETEABLE KS_AC_RENAMEABLE
+    }  {
+        2018-01-11 00: 17: 05.033
+    } /acplt/cshmi/Group
+} {Rec10 KS_OT_DOMAIN {a grouping of elements
+    } {KS_AC_READ KS_AC_WRITE KS_AC_DELETEABLE KS_AC_RENAMEABLE
+    }  {
+        2018-01-11 00: 20: 16.119
+    } /acplt/cshmi/Group
+}
+
+
+
+{idH KS_OT_VARIABLE {high dword of this object's unique id within the server (as long as it exists)
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-10 23: 52: 41.571
+    } KS_VT_UINT
+} {idL KS_OT_VARIABLE {low dword of this object's unique id within the server (as long as it exists)
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-10 23: 52: 41.571
+    } KS_VT_UINT
+}
+
+
+
+
+
+
+
+{circe KS_OT_DOMAIN {a circle
+    } {KS_AC_READ KS_AC_WRITE KS_AC_DELETEABLE KS_AC_RENAMEABLE
+    }  {
+        2018-01-11 00: 01: 51.085
+    } /acplt/cshmi/Circle
+} {circe2 KS_OT_DOMAIN {a circle
+    } {KS_AC_READ KS_AC_WRITE KS_AC_DELETEABLE KS_AC_RENAMEABLE
+    }  {
+        2018-01-11 00: 02: 04.917
+    } /acplt/cshmi/Circle
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{cx KS_OT_VARIABLE {x-axis coordinate of the center of the circle
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_SINGLE pixel
+} {cy KS_OT_VARIABLE {y-axis coordinate of the center of the circle
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_SINGLE pixel
+} {r KS_OT_VARIABLE {radius of the circle
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_SINGLE pixel
+} {strokeWidth KS_OT_VARIABLE {stroke width of the line
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_SINGLE pixel
+} {visible KS_OT_VARIABLE {the element is visible
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_BOOL
+} {stroke KS_OT_VARIABLE {line stroke color (CSS color name or hex like #000000)
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_STRING
+} {fill KS_OT_VARIABLE {fill color (CSS color name or hex like #000000)
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_STRING
+} {opacity KS_OT_VARIABLE {opacity of the element (\[
+            0.0-1.0\
+        ])
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_SINGLE
+} {rotate KS_OT_VARIABLE {rotate the Element
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_INT degree
+} {zindex KS_OT_VARIABLE {z-index of the visuals, sequence-index for actions: 0 is least visible (i.e. bottom) or executed first
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_UINT
+} {baseKsPath KS_OT_VARIABLE {base KS path for resolution of relative KS paths (not starting with /), used in References and direct ksVar (//localhost is replaced with the hostname of the hmi model)
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_STRING
+} {idH KS_OT_VARIABLE {high dword of this object's unique id within the server (as long as it exists)
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_UINT
+} {idL KS_OT_VARIABLE {low dword of this object's unique id within the server (as long as it exists)
+    } {KS_AC_READ KS_AC_WRITE KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_VT_UINT
+} {objectclass KS_OT_LINK {} {KS_AC_READ KS_AC_PART
+    }  {
+        2018-01-11 00: 01: 51.085
+    } KS_LT_GLOBAL_MANY_1 /acplt/ov/instantiation instance
+}

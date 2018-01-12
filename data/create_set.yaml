@@ -1,0 +1,16 @@
+Rectangle:
+  factory: Group
+  x: 15
+  Children:
+    rec:
+      factory: Rectangle
+      cx: 100
+      cy: 250
+    cir:
+      factory: Circle
+      cx: 100
+      cy: 200
+    cir2:
+      factory: Circle
+      cx: 300
+      cy: 500

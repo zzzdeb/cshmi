@@ -1,0 +1,86 @@
+<response 
+    xmlns="http://acplt.org/schemas/ksx/2.0" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://acplt.org/schemas/ksx/2.0 ksx.xsd">
+    <getep>
+        <DomainEngProps>
+            <identifier>acplt</identifier>
+            <comment></comment>
+            <access>read write renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T18:08:11.328193</creationtime>
+            <classIdentifier>/acplt/ov/domain</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>vendor</identifier>
+            <comment></comment>
+            <access>read</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T18:08:11.328476</creationtime>
+            <classIdentifier>/acplt/ov/domain</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>communication</identifier>
+            <comment></comment>
+            <access>read write renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T18:08:50.539275</creationtime>
+            <classIdentifier>/acplt/ov/domain</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>servers</identifier>
+            <comment>Manager. Provides operations for handling servers (register, unregister, getserverdata).</comment>
+            <access>read write renameable</access>
+            <semantics>2097152</semantics>
+            <creationtime>2018-01-11T18:08:50.539317</creationtime>
+            <classIdentifier>/acplt/ksbase/Manager</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>data</identifier>
+            <comment></comment>
+            <access>read write renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T18:08:50.543232</creationtime>
+            <classIdentifier>/acplt/ov/domain</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>dbinfo</identifier>
+            <comment>DB-INFO</comment>
+            <access>read write</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T18:08:50.544965</creationtime>
+            <classIdentifier>/acplt/fb/dbinfoclass</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>Tasks</identifier>
+            <comment></comment>
+            <access>read write renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T18:08:50.544983</creationtime>
+            <classIdentifier>/acplt/ov/domain</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>TechUnits</identifier>
+            <comment></comment>
+            <access>read write deleteable renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T18:08:50.545010</creationtime>
+            <classIdentifier>/acplt/ov/domain</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>Cons</identifier>
+            <comment></comment>
+            <access>read write deleteable renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T18:08:50.545017</creationtime>
+            <classIdentifier>/acplt/ov/domain</classIdentifier>
+        </DomainEngProps>
+        <DomainEngProps>
+            <identifier>Libraries</identifier>
+            <comment></comment>
+            <access>read write deleteable renameable</access>
+            <semantics>0</semantics>
+            <creationtime>2018-01-11T18:08:50.545025</creationtime>
+            <classIdentifier>/acplt/ov/domain</classIdentifier>
+        </DomainEngProps>
+    </getep>
+</response>
