@@ -1,0 +1,20 @@
+<response 
+  xmlns="http://acplt.org/schemas/ksx/2.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://acplt.org/schemas/ksx/2.0 ksx.xsd">
+  <getvar>
+    <var>
+      <value>
+        <single>100</single>
+      </value>
+      <timestamp>2018-01-13T01:34:04.716269</timestamp>
+      <state>notsupported</state>
+    </var>
+    <var>
+      <value>
+        <single>0</single>
+      </value>
+      <timestamp>2018-01-13T01:34:04.716272</timestamp>
+      <state>notsupported</state>
+    </var>
+  </getvar>
+</response>

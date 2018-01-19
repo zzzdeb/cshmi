@@ -86,11 +86,14 @@ def importLibrary(library, path='/TechUnits/', faculty='/acplt/ov/library'):
 import yaml
 
 def createFromTree(data, root):
-    factory_prefix = '/TechUnits/cshmi/'
+#    factory_prefix = '/TechUnits/cshmi/'
+    factory_prefix = ''
 #    path_faculty = {}
     for name, obj in data.items():
         path = root+name
         factory = factory_prefix + obj['factory']
+        if (factory == '/acplt/ov/library'):
+            importLibrary(name)
         createObject({path:factory})
         
         path_value = {}
@@ -142,7 +145,7 @@ def crawler(path):
 	
 	return tree
 
-crawler('/TechUnits')
+#crawler('/TechUnits')
 #importLibrary('cshmi')
 
 path_factory = {
@@ -158,6 +161,8 @@ path_factory = {
 
 #fromYaml('/home/zzz/hiwi/data/create_set.yaml', '/TechUnits/')
 #fromJson('../data/create_set.json', '/TechUnits/')
+
+createFromTree(crawler('/TechUnits'), '/TechUnits/Rectangle/')
 
 
 
